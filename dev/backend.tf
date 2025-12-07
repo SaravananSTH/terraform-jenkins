@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket  = "mercury23-s3"
+    bucket  = "vamshik-s3"
     key     = "dev/terraform.tfstate"
     region  = "ap-south-1"
     encrypt = true
